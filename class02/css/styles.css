@@ -1,8 +1,18 @@
-body {
+body{
 	background: black;
 	color: white;
 }
 
 img{
 	border-radius: 50%;
+}
+
+li{
+	/*color: white;*/
+	list-style: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
