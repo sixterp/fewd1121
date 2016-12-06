@@ -1,0 +1,36 @@
+.container{
+  background-color: #999;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.main-nav{
+  background-color: #000;
+  text-align: center;
+  padding: 15px;
+  margin: 0px 0px 25px 0px;
+}
+
+.main-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  background-color: #FF7566;
+  text-align: center;
+  padding: 15px;
+}
+
+#body-one{
+  color: blue;
+}
+
+#body-two{
+  color: green;
+}
+
+#body-three{
+  color: yellow;
+}
