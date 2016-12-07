@@ -1,0 +1,75 @@
+html{
+  border-left: 6px solid #DDD;
+}
+
+.container {
+  width: 720px;
+  padding: 54px;
+  font-family: Lato;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #DD0000;
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+h2 {
+  color: black;
+  font-weight: lighter;
+}
+
+a {
+  color: #DD0000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #AA0000;
+}
+
+a.mainnav{
+  font-size: 1.3em;
+  text-decoration: underline;
+  color: #DDD;
+  padding-right: 10px;
+}
+
+a.mainnav:hover{
+  color: black;
+}
+
+.date{
+  color: #999;
+  font-size: 2em;
+  margin-top: 60px;
+}
+
+.blog-title{
+/*   color: black; */
+  font-size: 2em;
+}
+
+img{
+    width: 720px;
+    height: auto;
+}
+
+.copyright-text{
+  color: #BBB;
+/*   text-size: 1em; */
+}
+
+.detail-link{
+  font-weight: bold;
+  text-align: right;
+/*   text-size: 1.5em; */
+  margin: 20px 20px ;
+}
+
+.line {
+  border-bottom: 1px #cccccc solid;
+  margin-bottom: 50px;
+}
