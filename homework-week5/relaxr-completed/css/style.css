@@ -1,0 +1,200 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #033048;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #121212;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html{
+  background-color: #f0efef;
+}
+
+
+.logo{
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+/*  display: inline-block;
+*/  float: left;
+  padding: 30px 0px 30px 0px;
+}
+
+
+a{
+  font-size: 24px;
+  color: #f9e42e;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.signup{
+  color: white;
+  background-color: #033048;
+  padding: 10px 56px 10px 56px;
+ margin: 40px auto 40px 37%;
+  border-radius: 7px;
+}
+
+ul.main-nav li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 0px 0px 20px;
+}
+
+ul.side-links {
+ padding: 10px 0px 10px 15px;
+ font-size: 24px;
+}
+
+
+p.about{
+  font-size: 22px;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.more-link{
+  font-weight: 600;
+  color: #033048;
+  padding: 20px 0px 30px 0px;
+/*  display: inline-block;
+*/  float: right;
+}
+
+.content-column{
+  width: 700px;
+  float: left;
+  margin-right: 20px;
+}
+
+/*.teaser-content{
+  margin-bottom: 40px;
+}*/
+
+.side-content{
+  width: 240px;
+  float: left;
+  font-weight: 300;
+}
+
+
+a.learn-more{
+  font-weight: 600;
+  color: #033048;
+  margin-top: 5px;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 30px;
+  color: #033048;
+}
+
+h3{
+  font-weight: 800;
+  font-size: 32px;
+  padding-top: 40px;
+  color: #033048;
+}
+
+img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content {
+  font-size: 24px;
+  color: #606161;
+}
+
+.center{
+  text-align: center;
+  display: in
+}
+
+.signup-bg{
+  background-color: #f9e42e;
+  padding: 20px;
+}
+
+#footer-text{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#footer-logo{
+  color: #f9e42e;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer-icons{
+  padding-left: 46%;
+}
+
+.line {
+  border-bottom: 1px black solid;
+  display: inline-block;
+  margin-bottom: 50px;
+}

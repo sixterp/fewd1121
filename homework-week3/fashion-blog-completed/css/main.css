@@ -1,5 +1,10 @@
 html{
-  border-left: 6px solid #DDD;
+  background-color: #DDDDDD;
+  padding-left: 6px;
+}
+
+body{
+	background-color: #FFFFFF;
 }
 
 .container {
@@ -8,6 +13,7 @@ html{
   font-family: Lato;
   font-weight: lighter;
   line-height: 1.5em;
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -42,7 +48,7 @@ a.mainnav:hover{
 }
 
 .date{
-  color: #999;
+  color: #999999;
   font-size: 2em;
   margin-top: 60px;
 }
@@ -58,7 +64,7 @@ img{
 }
 
 .copyright-text{
-  color: #BBB;
+  color: #BBBBBB;
 /*   text-size: 1em; */
 }
 
@@ -70,6 +76,6 @@ img{
 }
 
 .line {
-  border-bottom: 1px #cccccc solid;
+  border-bottom: 1px #CCCCCC solid;
   margin-bottom: 50px;
 }
